@@ -10,3 +10,11 @@ function writeCards(arr, event) {
 
     return thankYouCards;
 }
+
+function countDown(posInt) {
+
+    while (posInt >= 0) {
+        console.log(posInt);
+        posInt--;
+    }
+}
